@@ -1,0 +1,9 @@
+.root {
+  background: #000a11;
+  color: #ffffff;
+  padding: 16px;
+
+  .logo-footer {
+    height: 19px;
+  }
+}
