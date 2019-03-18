@@ -4,7 +4,7 @@
   "description": "Technical test qubittv",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack --progress",
+    "build": "NODE_ENV=production webpack --config webpack.config.js --env.production",
     "build:dev": "rm -rf dist && NODE_ENV=development webpack --config webpack.config.js -w",
     "start": "NODE_ENV=production node index.js",
     "start:dev": "NODE_ENV=development nodemon --inspect=0.0.0.0:5820 index.js",
