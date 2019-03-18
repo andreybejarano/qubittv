@@ -1,0 +1,24 @@
+.root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 16px;
+
+  .title-movie {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .btn-play {
+    margin: 16px 0;
+    border-radius: 50px;
+    background: #ff6d00;
+    width: 200px;
+    color: #ffffff;
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+  }
+}
